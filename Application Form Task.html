@@ -1,94 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Job application Form</title>
 </head>
 
-<body class="ajksdha kjasja">
+<body>
+<div class="whole">
+    <header>
 
-<header>
+        <link rel="stylesheet" href="./Application form.css">
+            <h5 class="top left">delivery application form.</h5> 
+            <h5 class="top right">©opyright delivery --app 2022.</h5>
+                <hr>
+    </header>
 
-    <link rel="stylesheet" href="./Application form.css">
-    <h5 id="HeadingLeft">delivery application form.</h5> 
-    <h5 id="HeadingRight">©opyright delivery --app 2022.</h5>
+    <section class="blank">
+        <!-- <div class="blank">
 
-<hr>
-</header>
+        </div> -->
+        <form>
+            <link rel="stylesheet" href="./Application form.css">
+            <Label for="FullName" class="info name">
+            Full Name *
+                <br>
+            <input type="text" placeholder="Full Name" name="FullName" id="FullName">
+             </Label>
+                <br>
+            <label for="email" class="info mail">
+            Email *
+                <br>
+            <input type="email" placeholder="E-mail" name="email" id="email">
+            </label>
+                <br>
+            <label for="PhoneNumber" class="info number">
+            Phone Number *
+                <br>
+            <input type="tel" placeholder="Phone Number" name="PhoneNumber" id="PhoneNumber">
+            </label>
+                <br>
+            <label for="WorkplaceType" class="info same place">
+            Workplace Type *
+                <br>
+            <select name="WorkplaceType" name="WorkplaceType" id="WorkplaceType">
+                <option name="Select" id="select">Select</option>
+                <option value="Remote" id="remote">Remote</option>
+                <option value="In Office" id="office">In Office</option>
+            </select>
+            </label>
+            <label for="JobLocation" class="info same location">
+            Job Location *
+                <br>
+            <input type="text" placeholder="Job Location" name="JobLocation" id="JobLocation">
+            </label>
+                <!-- <br>
+                <br>
+                <br>
+                <br> -->
+            <label for="EmploymentType" class="info type">
+            Employment Type *
+            </label>
+            
+            <select name="EmploymentType" id="EmploymentType">
+                <option name="Select">Select</option>
+            </select>
+        
 
-<section>
-    <form>
-    <link rel="stylesheet" href="./Application form.css">
+            </form>
+    </section>
 
-    <label for="Blank">
-        <br>
-        <input type="text" placeholder="" name="Blank" id="Blank" disabled>
-    </label>
-
-<br>
-
-    <Label for="FullName">
-        Full Name *
-        <br>
-        <input type="text" placeholder="Full Name" name="FullName" id="FullName">
-    </Label>
-
-<br>
-
-    <label for="email">
-        Email *
-        <br>
-        <input type="email" placeholder="email" name="email" id="email">
-    </label>
-
-<br>
-
-    <label for="PhoneNumber">
-        Phone Number *
-        <br>
-        <input type="tel" placeholder="Phone Number" name="PhoneNumber" id="PhoneNumber">
-    </label>
-
-<br>
-
-    <label for="WorkplaceType" class="abc">
-        Workplace Type *
-        <br>
-        <select type="button" placeholder="Select" name="WorkplaceType" id="WorkplaceType">
-        </select>
-    </label>
-
-
-    <label for="JobLocation" class="abc">
-        Job Location *
-        <br>
-        <input type="text" placeholder="Job Location" name="JobLocation" id="JobLocation">
-    </label>
-
-
-    <label for="EmploymentType" class="abc">
-        Employment Type *
-        <br>
-        <select type="button" placeholder="Select" name="EmploymentType" id="EmploymentType">
-        </select>
-    </label>
-
-</form>
-</section>
-<br>
-<footer>
-<div id="Submit">
-    <label for="Submission">
-        <a href="Submission.html">
-            <input type="button" placeholder="Send Application" name="Submission" id="Submission">
-        </a>
-    </label>
-    <p style="color:#8B54FF; text-align: center;">
-         By Clicking <b>Send Application</b>, you agree to our <a href="User Agreement.html">User Agreement</a> , <a href="Privacy Policy.html">Privacy Plicy</a> , and <a href="Cookie Policy.html">Cookie Policy.</a> 
-    </p>
+    <footer class="submit">
+        <div class="end">
+            <div>
+            <label for="Submission">
+                <input type="button" value="Send Application" name="Submission" id="Submission">
+            </label>
+        </div>
+        <div class="text">
+            <span style="color:#8B54FF">
+                By Clicking <b>Send Application</b>, you agree to our <a href="User Agreement.html">User Agreement</a> , <a href="Privacy Policy.html">Privacy Plicy</a> , and <a href="Cookie Policy.html">Cookie Policy.</a> 
+            </span>
+        </div>
+        </div>
+    </footer>
 </div>
-</footer>
-
 
 </body>
 

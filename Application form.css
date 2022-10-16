@@ -3,134 +3,113 @@ html{
     height: 664px;
     top: -522px;
     left: 658px;
-    padding: 6px, 0px, 6px, 0px;
     gap: 10px;
+    background-color: #FBFBFB;
 }
 hr{
-    width: 521px;
-    top: 56px;
-    left: 15px;
-    height: 0px;
     border: 1px solid #8B54FF;
-    flex: none;
+    width: 521px;
 }
-h5{
-    border-color: #8B54FF;
+.blank{
+    margin-top: 120px;
+    /* margin: 20px;
+    padding: 20px; */
 }
-h2{
-    text-align: center;
-    font-size: 65px;
-    color: #0810f4;
-}
-.headertitle{
-    text-align: center;
+.top{
+    font-size: 9px;
+    color: #8B54FF;
     float: left;
+    /* padding: 0px, 10px, 0px, 15px; */
 }
-#HeadingLeft{
-    font-size: 9px;
-    color: #8B54FF;
-    text-align: left;   
+.left{
+    margin-left: 28px;
 }
-#HeadingRight{
-    font-size: 9px;
-    color: #8B54FF;
-    text-align: end;
+.right{
+    margin-left: 300px;
 }
-hr{
-    border-color: #8B54FF;
-}
-#Blank{
-    width: 548px;
-    height: 90px;
-    top: 57px;
-    left: 11.5px;
-    border: 1px solid transparent;
-    border-color: transparent;
+.info{
+    gap: 20px;
+    /* text-align: left; */
+    margin-left: 28px;
+    cursor: text;
+    margin-top: 10px;
 }
 #FullName{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 483px;
+    width: 510px;
     height: 37px;
     top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
+    margin-left: 28px;
 }
 #email{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 483px;
+    width: 510px;
     height: 37px;
     top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
+    margin-left: 28px;
 }
 #PhoneNumber{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 483px;
+    width: 510px;
     height: 37px;
     top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
+    margin-left: 28px;
 }
 #WorkplaceType{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 220px;
-    height: 37px;
-    top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
+    width: 240px;
+    height: 42px;
+    top: 27px;    
 }
 #JobLocation{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 220px;
+    width: 240px;
     height: 37px;
     top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
 }
 #EmploymentType{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 220px;
+    width: 240px;
     height: 37px;
     top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
+    margin-left: 28px;
 }
 #Submission{
     border: 1px solid #8B54FF;
-    border-color: #8B54FF;
-    box-shadow: 0 0 3px #8B54FF;
     border-radius: 25px;
-    width: 220px;
-    height: 37px;
+    width: 180px;
+    height: 35px;
     top: 27px;
-    padding: 10px,23px,10px,23px;
-    gap: 10px;
+    margin-left: 28px;
+    cursor: pointer;
+    background-color: #8B54FF;
+    color: #FBFBFB;
 }
-#Submit{
-    display: inline-flex;
-    align-items: flex-end;
+/* p{
+    display: inline-block;
+    text-align: center;
+} */
+.submit{
+  margin-top: 27px;
 }
-#TypeLocation{
-    display: inline-flex;
+.same{
+    float: left;
 }
-.abc{
-    display: inline;
+.text{
+    font-size: 9px;
+    padding: 5px 17px;
+    width: 250px;
 }
+.end{
+    display: flex;
+}
+/* .whole{
+    display: flex;
+    justify-content: center;
+} */
